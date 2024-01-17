@@ -1,0 +1,171 @@
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body>header{ 
+    background-color: darkslategray;
+    padding: 16px 0;
+    color: whitesmoke;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+
+}
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    /* height: 180px; */
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 { 
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a  {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(0, 255,0, 0.1);
+}
+
+#sports .articles article a {
+    background-color: #009432;
+}
+
+#economy {
+    background-color: #f8f59f;
+}
+
+#economy .articles article a {
+    background-color: #ff9f1a;
+}
+
+/* Estilos para a seção de Entretenimento */
+#entertainment {
+    background-color: #ffcccb;
+}
+
+#entertainment .articles article {
+    width: 30%; /* Mantendo 3 colunas */
+    margin-bottom: 16px; /* Adicionando espaçamento entre os artigos */
+    box-sizing: border-box; /* Incluindo borda e preenchimento no cálculo de largura */
+}
+
+#entertainment .articles article img {
+    width: 100%; /* Imagens com largura total do contêiner */
+    height: auto; /* Mantendo a proporção da imagem */
+    display: block; /* Removendo espaços verticais entre as imagens */
+}
+
+#entertainment .articles article header {
+    margin-top: 8px; /* Espaçamento acima do cabeçalho (hora) */
+}
+
+#entertainment .articles article h3 {
+    font-size: 18px; /* Tamanho do título ajustado */
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#entertainment .articles article a {
+    background-color: #ff6666;
+    margin-top: 8px;
+}
+
+/* Estilos para a seção de Tecnologia */
+#technology {
+    background-color: #c2f0fc;
+}
+
+#technology .articles article {
+    width: 30%;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+#technology .articles article img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#technology .articles article header {
+    margin-top: 8px;
+}
+
+#technology .articles article h3 {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#technology .articles article a {
+    margin-top: 8px;
+    background-color: #66b3ff;
+}
+
+
